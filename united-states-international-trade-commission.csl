@@ -21,13 +21,17 @@
       <email>Judy.Edelhoff@usitc.gov</email>
     </contributor>
     <contributor>
+      <name>Brian Rose</name>
+      <email>brian.rose@usitc.gov</email>
+    </contributor>
+    <contributor>
       <name>Peg Hausman</name>
       <email>Margaret.Hausman@usitc.gov</email>
     </contributor>
     <category citation-format="note"/>
     <category field="generic-base"/>
     <summary>A bibliographical style file for the United States International Trade Commission</summary>
-    <updated>2022-08-17T18:21:43+00:00</updated>
+    <updated>2022-09-01T14:40:30+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -283,7 +287,7 @@
               <text variable="version"/>
             </group>
           </else-if>
-          <else-if type="legal_case interview patent" match="any">
+          <else-if type="legal_case interview patent hearing" match="any">
             <text variable="title" text-case="title"/>
           </else-if>
           <else-if match="all" variable="reviewed-author">
@@ -435,7 +439,7 @@
           </names>
         </group>
       </else-if>
-      <else-if type="bill legislation interview patent" match="any">
+      <else-if type="bill legislation interview patent hearing" match="any">
         <text variable="title" text-case="title"/>
       </else-if>
       <else-if type="motion_picture" match="all">
